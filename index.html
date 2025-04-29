@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYRA Restaurent</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <section id="header">
+      <h2 class="brand-logo"><i class="fas fa-utensils"></i> Delishé</h2>
+
+        <div>
+          <ul id="navbar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li> 
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><button onclick="window.location.href='#booknow'">Order Now</button></li>
+
+
+          </ul>
+        </div>
+    
+        <!-- Hamburger menu -->
+        <div class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </div>
+      </section>
+    <div class="carosels"  id="home">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+              <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745922286/chicken-skewers_vlbupl.avif" alt="Slide 1" />
+              <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745922829/top-view-table-full-delicious-food-_uggjff.jpg" alt="Slide 2" />
+              <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745255288/samples/breakfast.jpg" alt="Slide 3" />
+            </div>
+
+            <div class="indicators" id="indicators">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+             
+            </div>
+    </div>
+      
+
+    <!-- Packages -->
+    <section class="packages" id="menu" >
+      <h2 data-aos="fade-up">Our Food Packages</h2>
+      <div class="package-cards">
+        <div class="package" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Classic Combo</h3>
+          <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745923017/biryani_ohfust.avif" alt="Classic food combo" width="300" height="200">
+          <p>Biryani + Raita + Dessert</p>
+          <span>$15</span>
+        </div>
+        <div class="package" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Deluxe Feast</h3>
+          <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745923370/fried-chicken-potato-with-tropical-juice_140725-3611_bv3sc4.avif" alt="Deluxe food spread" width="300" height="200">
+          <p>Starter + Main Course + Dessert + Drink</p>
+          <span>$25</span>
+        </div>
+        <div class="package" data-aos="zoom-in" data-aos-delay="300">
+          <h3>Royal Platter</h3>
+          <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745923696/fried-chicken-with-lule-kebab-sliced-onion_140725-3614_yil20e.avif" alt="Royal food platter" width="300" height="200">
+          <p>Multi-Cuisine Buffet with Chef's Specialties</p>
+          <span>$40</span>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- gallery -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924068/mandi_vlj1wn.avif" alt="Gallery Image 1">
+   
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924071/top-view-fried-potatoes-with-seasonings_ne3frs.avif" alt="Gallery Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924256/platter_m3ch76.avif" alt="Gallery Image 3">
+  
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924078/fried-chicken-with-lule-kebab-sliced-onion_140725-3614_hgbm9l.avif" alt="Gallery Image 4">
+
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924093/top-close-up-view-chicken-wings-chicken-wings-slices-fried-potatoes-onion-herbs-table_140725-71650_yt20xj.jpg" alt="Gallery Image 5">
+   
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924459/fruit-bowl-with-chocolate-cream-mousse_140725-5821_xbhdsu.avif" alt="Gallery Image 6">
+      
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924093/top-close-up-view-chicken-wings-chicken-wings-slices-fried-potatoes-onion-herbs-table_140725-71650_yt20xj.jpg" alt="Gallery Image 5">
+   
+    </div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745924459/fruit-bowl-with-chocolate-cream-mousse_140725-5821_xbhdsu.avif" alt="Gallery Image 6">
+      
+    </div>
+  </div>
+
+  </section>
+  
+ <!-- Testimonials -->
+ <section class="testimonials" id="review">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-cards">
+    
+    <div class="testimonial">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745926128/men_1_vfwcnx.avif" alt="Ananya Patel">
+      <div class="stars">★★★★★</div>
+      <p>"The biryani was full of flavor and perfectly cooked.<br>
+      Presentation was excellent and portion sizes generous.<br>
+      Everything arrived fresh and hot.<br>
+      Highly recommend their food service!"</p>
+      <h4>Ananya Patel<br><span>Food Lover</span></h4>
+    </div>
+
+    <div class="testimonial">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745926236/men_2_el6qvt.avif" alt="Rohan Desai">
+      <div class="stars">★★★★☆</div>
+      <p>"Tried their deluxe platter for a family gathering.<br>
+      Great variety and delicious taste.<br>
+      Minor delay in delivery but worth the wait.<br>
+      Will definitely order again!"</p>
+      <h4>Rohan Desai<br><span>Returning Customer</span></h4>
+    </div>
+
+    <div class="testimonial">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745926329/girl_1_spms8d.avif" alt="Zara Sheikh">
+      <div class="stars">★★★★★</div>
+      <p>"Exceptional service and mouthwatering dishes.<br>
+      Loved the starters and desserts the most.<br>
+      Staff was courteous and responsive.<br>
+      Perfect choice for food catering!"</p>
+      <h4>Zara Sheikh<br><span>Happy Foodie</span></h4>
+    </div>
+
+  </div>
+</section>
+
+  
+
+  <!-- Meet Your Event Planner -->
+  <section class="event-planner-section" id="planners">
+    <h2>Meet Your Food Expert</h2>
+    <div class="event-planner-card">
+      <div class="planner-image">
+        <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745925617/chef_qihndm.avif" alt="Chef Ayesha">
+      </div>
+      <div class="planner-info">
+        <h3>Chef james martin</h3>
+        <p>
+          james martin is a skilled culinary artist with over 5 years of experience in crafting exquisite meals. <br>
+          From gourmet dishes to custom event menus, his expertise adds flavor to every occasion. <br>
+          Known for his innovative recipes and dedication to quality ingredients, <br>
+          he transforms meals into unforgettable experiences. <br>
+          Clients love his passion, precision, and vibrant culinary presentation. <br>
+          he believes great food creates joyful moments worth savoring.
+        </p>
+        <div class="planner-icons">
+          <a href="#"><i class="fas fa-phone-alt"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fas fa-comment-dots"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- order now form -->
+  <section class="order-now" id="booknow">
+    <h2>Order Now</h2>
+    <form action="#" method="POST" class="order-form">
+      
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="food-item">Food Item</label>
+        <select id="food-item" name="food-item" required>
+          <option value="">Select a food item</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Burger">Burger</option>
+          <option value="Pasta">Pasta</option>
+          <option value="Salad">Salad</option>
+          <option value="Sushi">Sushi</option>
+          <!-- Add more food options here -->
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="special-instructions">Special Instructions (optional)</label>
+        <textarea id="special-instructions" name="special-instructions" rows="4" placeholder="Enter any special instructions, allergies, or preferences"></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label for="delivery-time">Preferred Delivery Time</label>
+        <input type="time" id="delivery-time" name="delivery-time" required>
+      </div>
+  
+      <button type="submit" class="order-btn">Place Order</button>
+    </form>
+  </section>
+  
+
+<!-- Contact Us Section -->
+<section class="contact-section" id="Contact">
+  <h2>Contact Us</h2>
+  <div class="contact-container">
+    <!-- Left: Form -->
+    <div class="contact-form">
+      <form>
+        <div class="input-group">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="5" required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+
+    <!-- Right: Contact Info and Social Links -->
+     <div id="contact">
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>123 Business St, City, Country</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>+123 456 7890</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>contact@company.com</p>
+      </div>
+         <!-- Social Media Links -->
+      <div class="social-links">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+     </div>
+
+      <!-- Google Maps -->
+      <div class="contact-map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991434065!2d-74.25986394525523!3d40.6976700631637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzU0LjAiTiA3NMKwMTUnMjQuMCJX!5e0!3m2!1sen!2sus!4v1615933546144!5m2!1sen!2sus" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+   
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h2><i class="fas fa-utensils"></i> Delishé</h2>
+      <p>Serving memorable meals with top-quality service and flavors.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Order Now</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Our Specialties</h3>
+      <ul>
+        <li><a href="#">Corporate Feasts</a></li>
+        <li><a href="#">Wedding Banquets</a></li>
+        <li><a href="#">Birthday Buffets</a></li>
+        <li><a href="#">Gala Dinners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p><i class="fas fa-map-marker-alt"></i> 132 Ameerpet, Food District</p>
+      <p><i class="fas fa-phone-alt"></i> +91 9081234567</p>
+      <p><i class="fas fa-envelope"></i> info@deliciousevents.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Delicious Events. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+ 
+  
+       
+    
+
