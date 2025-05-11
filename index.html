@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZYRA Restaurent</title>
+  <title>Delishé</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
@@ -110,10 +110,31 @@
   </section>
   
  <!-- Testimonials -->
- <section class="testimonials" id="review">
+ <div class="wrapper">
+  <div class="feedback-container">
+    <h2 class="heading">We value your feedback!</h2>
+    <p>Please rate your experience with us:</p>
+
+    <div class="stars">
+      <span class="star" data-value="1">&#9733;</span>
+      <span class="star" data-value="2">&#9733;</span>
+      <span class="star" data-value="3">&#9733;</span>
+      <span class="star" data-value="4">&#9733;</span>
+      <span class="star" data-value="5">&#9733;</span>
+    </div>
+
+    <textarea placeholder="Write your feedback (optional)..."></textarea>
+
+    <button id="submitBtn">Submit</button>
+
+    <p class="thank-you" style="display: none;">Thanks for your feedback!</p>
+  </div>
+</div>
+
+<section class="testimonials" id="review">
   <h2>What Our Customers Say</h2>
   <div class="testimonial-cards">
-    
+   
     <div class="testimonial">
       <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1745926128/men_1_vfwcnx.avif" alt="Ananya Patel">
       <div class="stars">★★★★★</div>

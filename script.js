@@ -89,5 +89,41 @@ cards.forEach(card => {
 });
   
 
+// review
+const stars = document.querySelectorAll('.star');
+let selectedRating = 0;
+
+stars.forEach((star, index) => {
+  star.addEventListener('click', () => {
+    selectedRating = index + 1;
+    updateStars();
+  });
+
+  star.addEventListener('mouseover', () => {
+    highlightStars(index);
+  });
+
+  star.addEventListener('mouseout', () => {
+    updateStars();
+  });
+});
+
+function updateStars() {
+  stars.forEach((star, idx) => {
+    star.classList.toggle('selected', idx < selectedRating);
+  });
+}
+
+function highlightStars(index) {
+  stars.forEach((star, idx) => {
+    star.classList.toggle('hover', idx <= index);
+  });
+}
+
+document.getElementById('submitBtn').addEventListener('click', () => {
+  if (selectedRating > 0) {
+    document.querySelector('.thank-you').style.display = 'block';
+  }
+});
 
 

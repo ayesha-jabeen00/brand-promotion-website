@@ -339,6 +339,79 @@ li button:hover {
 }
   
 /* review */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #3f658b, #acbddd);
+}
+.feedback-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.stars {
+  margin: 15px 0;
+}
+
+.star {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: gold;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  resize: none;
+  font-size: 14px;
+  height: 80px;
+}
+
+button#submitBtn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#submitBtn:hover {
+  background-color: #0056b3;
+}
+
+.thank-you {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
 
 .testimonials {
   padding: 60px 20px;
